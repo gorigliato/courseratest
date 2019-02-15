@@ -1,0 +1,102 @@
+/************ Base Styles ************/
+
+body {
+  font-size: 16px;
+  color: #333;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.container h2 {
+    font-size: 1.7em;
+    margin: 20px 0;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.row {
+    width: 100%;
+}
+
+.meat-tile {
+    background: #e2a79a;
+    padding: 15px;
+    margin: 10px;
+    width: 100%;
+}
+
+/************ Header ************/
+#header-nav {
+    background-color: #475791;
+    border-radius: 0;
+    border: 0;
+    height: 70px;
+}
+
+#header-nav h1 {
+    color: #fff;
+    font-size: 1.9em;
+    margin-top: -1px;
+}
+
+navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #fff;
+}
+
+.navbar-header button.navbar-toggle {
+    margin-top: 15px;
+}
+
+.navbar-collapse {
+    border: 0;
+}
+
+#nav-list {
+    margin-top: 10px;
+    background-color: #8d5178;
+}
+
+#nav-list a {
+    color: #fff;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #a096ab;
+}
+
+#nav-list li {
+    font-size: 1.6em;
+    margin: 0;
+    border: 1px solid #a096ab;
+}
+
+
+
+/************ LARGE SCREENS ************/
+@media (min-width: 768px) {
+
+}
+
+
+
+/************ SMALL SCREENS ************/
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+
+
+
+/************ EXTRA SMALL SCREENS ************/
+@media (max-width: 480px) {
+    #header-nav .navbar-brand h1 {
+        font-size: 1.5em;
+        margin-top: 5px;
+    }
+}
+
+
+
